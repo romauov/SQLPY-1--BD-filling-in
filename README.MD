@@ -3,9 +3,11 @@
 
 #### группа: SQLPY-1
 
+[предыдущая работа с созданием таблиц БД](https://github.com/romauov/SQLPY-1--DB-design-and-queries)
+
 ### Задание 1.
 
-SQL запросы для создания жанров:
+SQL запросы для записи жанров:
 ```
 INSERT INTO genre
 	VALUES(1, 'Pop');
@@ -22,7 +24,7 @@ INSERT INTO genre
 INSERT INTO genre
 	VALUES(5, 'Rave');
 ```
-SQL запросы для создания исполнителей:
+SQL запросы для записи исполнителей:
 ```
 INSERT INTO artist
 	VALUES(1, 'Billie Eilish');
@@ -49,7 +51,7 @@ INSERT INTO artist
 	VALUES(8, 'Televisor');
 ```
 
-SQL запросы для создания альбомов:
+SQL запросы для записи альбомов:
 ```
 INSERT INTO album
 	VALUES(1, 'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?', 2019, 1);
@@ -75,7 +77,7 @@ INSERT INTO album
 INSERT INTO album
 	VALUES(8, 'Venture - EP', 2015, 4);
 ```
-SQL запросы для создания треков:
+SQL запросы для записи треков:
 ```
 INSERT INTO track
 	VALUES(1, 'ilomilo', 156, 1);
@@ -125,7 +127,7 @@ INSERT INTO track
 INSERT INTO track
 	VALUES(16, 'Find That Someone', 228, 8);
 ```
-SQL запросы для создания сборников:
+SQL запросы для записи сборников:
 ```
 INSERT INTO collection
 	VALUES(1, 'first', 2011);
@@ -151,7 +153,7 @@ INSERT INTO collection
 INSERT INTO collection
 	VALUES(8, 'eighth', 2018);
 ```
-SQL запросы для создания отношений Артист-Альбом:
+SQL запросы для записи отношений Артист-Альбом:
 ```
 INSERT INTO artistalbum
 	VALUES(1, 1);
@@ -177,7 +179,7 @@ INSERT INTO artistalbum
 INSERT INTO artistalbum
 	VALUES(8, 8);
 ```
-SQL запросы для создания отношений Артист-Альбом:
+SQL запросы для записи отношений Артист-Альбом:
 ```
 INSERT INTO genreartist
 	VALUES(1, 1);
@@ -203,7 +205,7 @@ INSERT INTO genreartist
 INSERT INTO genreartist
 	VALUES(4, 8);
 ```
-SQL запросы для создания отношений Коллекция-Трек:
+SQL запросы для записи отношений Коллекция-Трек:
 ```
 INSERT INTO collectiontracks
 	VALUES(1, 1);
