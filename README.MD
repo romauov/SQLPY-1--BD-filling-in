@@ -126,6 +126,9 @@ INSERT INTO track
 	
 INSERT INTO track
 	VALUES(16, 'Find That Someone', 228, 8);
+
+INSERT INTO track
+	VALUES(17, 'you should see me in a crown', 181, 1);
 ```
 SQL запросы для записи сборников:
 ```
